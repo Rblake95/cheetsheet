@@ -1,0 +1,264 @@
+<head>
+    <title> Cheetah Cheetah </title>
+    <link href="./cheetsheet.css" rel="stylesheet" type="text/css">
+
+
+  </head>
+  <body>
+    <div class="nav">
+      <h1> Cheat to succeed, you must.</h1>
+      <a href="#basic-html"><h3>Basic HTML Tags</h3></a>
+      <a href="#basic-css"><h3>Basic CSS Rules</h3></a>
+      <a ><h3>Cool Stuff</h3></a>
+    </div>
+   
+    <div id="yoda">
+      <img src="./Resources/lightsaber.jpg"> <!-- Would really like a banner of light sabers that span across the page as a gap-->
+    </div>
+    
+    <div id="basic-html">
+      <!-- Insert html table here-->
+   <div class= "basic-html">
+      </div>
+   <div class= "table head">
+     <table>
+       <thead colspan= 3>
+         <h1> Start with the basics, We will. </h1> 
+       </thead>
+       </div>
+    <div class="table html body"></div>   
+    <tbody>
+       <tr>
+          <td><strong>Declaring A DOCTYPE</td>
+          <td>(!DOCTYPE html)</td>
+         <td>More to be added</td>
+        </tr>
+  
+        <tr>
+          <td><strong>Open HTML Tag</td>
+          <td>(html) and (/html)</td>
+          <td>MTBAL</td>
+        </tr>
+  
+        <tr>
+          <td><strong>Header</td>
+          <td> (head)(/head): can add (title) to tabs and other no visual aspects</td>
+        </tr>
+  
+        <tr>
+          <td><strong>Body</td>
+          <td>(Body)(/body): Where everything the user is going to see is</td>
+        </tr>
+  
+        <tr>
+          <td><strong>Basic writing commands</td>
+          <td>h1-6:Headings "p":paragraph "br":Break "em":Italics "Strong":Bold</td>
+        </tr>
+  
+        <tr>
+          <td><strong>Lists</td>
+          <td>"Ul": Unordered List (bullets) vs. "ol": Ordered list (numbers) "li":List items</td>
+          <td>Remember, ordered list will number based off input</td>
+        </tr>
+  
+        <tr>
+          <td><strong>Tables</td>
+          <td> (table), (thead), (tbody), (tr), (td), (tfooter)</td>
+            <td>(colspan),(rowspand)</td>
+        </tr>
+  
+        <tr>
+          <td><strong>Video</td>
+          <td>(video) src="" + controls + video not supported </td>
+        </tr>
+  
+        <tr>
+          <td><strong> Images </td>
+          <td> (imgage) src=""</td>
+          <td> No closing tag. Alt attribute for image description </td>
+        </tr>
+  
+        <tr>
+            <td><strong> Div and Class </td>
+            <td> (div) used to divide a section from the total document. Class used to group a section by name mainly for CSS </td>
+        </tr>
+    </div>
+  </tbody>
+     </table> 
+   </div>
+      
+       <!-- I want some sort of break in the action here. Frankly I'd rather all of this stuff be on different web pages so I can add pictures of the different changes we can make but well..... we aren't there yet lol--> 
+<div id="basic-css">
+    </div>
+<div class= "table head">
+      <table>
+        <h1> The force we will use, to make the page beatiful we shall. </h1>
+        </div>
+    <div class="table body basic">
+      <tbody>
+        
+      <tr>
+        <td colspan="3"><strong><h2>Basic Set-Up</h2></strong></td>
+      </tr>
+
+      <tr>
+          <td><strong>Syntax</td>
+          <td> Specification (element:detail;)</td>
+          <td> Brackets instead of parenthesis</td>
+        </tr>
+
+     <tr>
+          <td>Attaching your CSS file to your HTML</td>
+          <td> link href="./resources/css/index.css" type="text/css" rel="stylesheet" </td>
+        </tr>
+  
+     <tr>
+      <td> <strong>Basic Styles</td>
+      <td> Color: font:family font-align: font-size: border: </td>
+      <td> Row 3</td>
+     </tr>
+      </div>
+     <tr>
+      <div class="table body spec">
+       <td colspan=3><strong> <h2>Specification</h2></td>
+     </tr>
+        
+        <tr>
+          <td><strong> Using ID</td>
+          <td> ID is the strong specifier, if you ever need to change a single element exactly, use ID. Unlike Class it can only be used for 1 element per document</td>
+          <td> #"idname" (style: detail;)</td>
+        </tr>
+  
+     <tr>
+          <td><strong> Classes</td>
+          <td> The second priority in specification, classes can be used to target multiple elements throught a document</td>
+          <td> .classname (sytle:detail) You can also layer and stack classes Ex. Class= Green bold  CSS- .green and .bold can have different rules that will both apply or not apply to class=red bold</td>
+     </tr> <!-- probably more to add here-->
+        
+      <tr>
+        <td><strong>Psuedo Classes (think attribute then actions)</td>
+        <td>Syntax #idname:Psuedo (color:green;)</td>
+        <td>Different types of actions: focus, visited, disabled, active, hover</td>
+      </td>
+      
+      <tr>
+        <td> <strong>Class-Element/ Element-Class</td>
+        <td> If you are wanting to add a style to multiple elements, then we can use these syntax. Class-element will only apply the style to (h1) inside of your class, where Element class can apply to multiple classes throughout the document.</td>
+        <td>Not really sure what situation would warrant using one or the other</td>
+      </tr>
+    </div>
+  <div class= "table body box">
+      <tr>
+        <td colspan=3> <h2>The Box Model</h2></td>
+      </tr>
+      
+      <tr>
+        <td><strong>Resetting Defaults</td>
+        <td>Major web browsers have a default margins stylesheet for any info that doesn't already have one. Set all (*) margins and padding to 0 to make sure you are starting with a clean slate</td>
+        <td>Syntax= *(margin:0; padding:0;)</td>
+      </tr>
+      
+      <tr> 
+        <td><strong>New box method</td>
+        <td>Use the new box method styling to make sure your content margins adjust to your styling</td>
+        <td>Syntax: *(box-sizing:border-box;)
+          
+      <tr>
+        <td><strong>Content</td>
+        <td> The height & width style applies to the content area</td>
+        <td> Syntax for H&W. element (height:100px;)</td>
+      </tr>
+        
+      
+      <tr>
+        <td><strong>Padding</td>
+        <td>The amount of area between the Content and the border</td>
+        <td>Syntax: Either use (padding-top/right/bottom/left) or CSS reads (Padding: 5px 10px 7px 10px) clockwise starting at the top</td>
+      </tr>
+      
+      <tr>
+        <td><strong>Border</td>
+        <td>The thickness and style of the border</td>
+        <td>Syntax. Border: (px or thin, medium, thick) (style) (color);</td>
+      </tr>
+      
+      <tr>
+        <td><strong>Border Radius</td>
+        <td>Can add curvurture to your borders</td>
+        <td>Syntax= Border-radius:(px or 50% for circle)</td>
+      </tr>
+      
+      <tr>
+        <td><strong>Margin</td>
+        <td>The amount of area between the border and the outside edge of the element</td>
+        <td>Syntax: Either use (margin-top/right/bottom/left) or CSS reads (Padding: 5px 10px 7px 10px) clockwise starting at the top</td>
+      </tr>
+      
+      <tr>
+        <td><strong>Auto Margins</td>
+        <td>Center an element to fit its container. However, you must set a width so that your content doesn't just take the width of the screen.</td>
+        <td>Syntax= width:400px (400px is used commonly because its smaller than most screens) +  (margin: 0 auto) </td>
+      </tr>
+      
+      <tr>
+        <td><strong> Min and Max H&W</td>
+        <td>With the vast differences in screen size, we need to put min and maxs for H&W to make adjust the UI for different screen sizes.</td>
+        <td>Syntax= (min-height: 200px;) or (max-width:400px;)</td>
+      </tr>
+      
+      <tr>
+        <td><strong>Over flow</td>
+        <td>Over flow determines what happens to content that overflows their own H&W. Different options include (hidden, scroll, or visible)</td>
+        <td>Syntax= (overflor:scroll;)</td>
+      </tr>
+      
+      <tr>
+        <td><strong>Visibility</td>
+        <td>For Works in progress, we can use visibility to save a spot for future elements, without it being accessible to users (hidden, visible, collapse)</td>
+        <td>Syntax= (visibility: hidden;)
+      </tr>
+    </div>
+    
+  <div class="table body display">
+    <tr>
+      <td colspan=3><h2> Display and Positioning</h2></td>
+    </tr>
+    
+      <tr>
+        <td><strong>Position  </td>
+          <td>Telling the page where you want your block located. 1. Static- Exactly where it is, default. 2. Relative must be accompanied by a top, left, bottom px #. 3.Absolute-it won't move despite scroll. 4. Fixed-will stay in position with scroll (think headers and nav bars). 5.Sticky- Will scroll until you reach the bottom of the parent container.  </td>
+          <td>  </td>
+      </tr>
+    
+        <tr>
+          <td><strong>Z-Index  </td>
+            <td>Think of this as the "bring forward" or "send to back" rating. The higher the number, the higher the priority since all are 0  </td>
+            <td>Syntax= z-index: 1;  </td>
+        </tr><tr>
+  
+          <td><strong>Float  </td>
+            <td>Used to tell an element to go as far right or left as possible on a page </td>
+            <td>Syntax= (float:right/left) </td>
+        </tr>
+    
+        <tr>
+          <td><strong>Display  </td>
+          <td>Can change the position of the blocks in a document. 1. Inline- keeps an element in line 2. Block- creates a seperate block for your info 3. Inline-block- Creates blocks in line </td>
+          <td>Syntax= (display: inline-block;) </td>
+        </tr>
+    
+        <tr>
+          <td><strong>Clear  </td>
+            <td>Clear is a function to add with float. It tells the block what to do if there are two floating elements bumping</td>
+            <td>  </td>
+        </tr>
+      
+    </div>  
+      </tbody>
+    </table>
+  
+       
+       
+   
+    
+      
