@@ -1,27 +1,76 @@
-body {
-    max-width: 1000px;
-}
-#yoda img {
-    height: 150px;
-    width: 1000px;
 
+#yoda img {
+    height: 200px;
+    width: 100%;
+    top:60px;
+    position:relative;
     }
 
+/* button section */
+
+.nav {
+    overflow:hidden;
+    position:fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 2;
+}
 .nav a{
-    display: inline-block;
-    border: 2px dotted rgb(9, 117, 9);
-    margin: 0 auto;
-    width: 325px;
+    display:inline-block; 
+    border: 2px solid rgba(53,186,42,.8);
+    width:250px;
     text-align: center;
-    margin-bottom:4px;
+    background: rgba(255, 253, 253, 0.788);
+    cursor: pointer;  
+    color: rgb(68,59,163);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     } 
 
+.nav a:visited {
+    color:rgb(0, 0, 0);
+    background-color: rgb(216, 0, 0);
+    border:black;
+}
+
+
+
+/* Table section */
 .table{
-    border: 1px solid black;
-    
+    position: relative;
+    top:100px;
+}
+
+tr td:first-child {
+    font-weight: bold; 
+    font-style: italic;  
+    background-color: rgb(150, 150, 150); 
 }
 
 .table h1 {
     text-align: center;
+    background-color:rgba(53,186,42,.8);
+    display: block;
+    font-size: 40px;
+} 
+
+.table h2 {
+    color: black;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-color:rgb(199,240,128);
+    width: 100%;
+    padding: 10px 0px;
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.table td {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 }
+
+table {
+    border: 2px solid rgb(68,59,163);
+
+}
+
